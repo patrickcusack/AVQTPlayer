@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head></head>
+<title>IOSurfaces</title>
+<body>
+
+<img src="http://www.worlddreambank.org/BIG/IO-SOUBG.JPG" width=300 height=300 style="max-width:95%;border:6px double #545565;"/>
+<img src="http://assets.nydailynews.com/polopoly_fs/1.151827!/img/httpImage/image.jpg_gen/derivatives/landscape_635/alg-resize-kim-kardashian-jpg.jpg" width=400 height=300 style="max-width:95%;border:6px double #545565;"/> 
+
+<h1>IOSurfaces</h1>
+	<ul>
+		<li>Command Line Client has a callback that pulls the currentSurfaceID</li>
+		<li>The surface ID is passed as a unique ID across a pipe to another process</li>
+		<ul>
+			<li>There might be a chance to do other type of shared memory tactics</li>
+			<br/>
+		</ul>
+		<li>you get the CVPixelBuffer and grab its surface ID</li>
+		<li>the <em><a href="https://developer.apple.com/library/mac/documentation/QuartzCore/Reference/CVPixelBufferRef/Reference/reference.html">CVPixelBuffer</a></em> is kept in queue and has a time value associated with it</li>
+		<li>the CVPixelBuffers come from <em>QTVisualContextCopyImageForTime</em> which is invoked in a callback on the movie</li>
+		<li>you register to get callbacks with <em>QTVisualContextSetImageAvailableCallback</em> from a context that you have defined</li>
+		<li><em>QTPixelBufferContextCreate</em></li>
+	</ul>
+
+	<ul>
+		<li>QTPixelBufferContextCreate()</li>
+		<li>SetMovieVisualContext()</li>
+		<li>QTVisualContextSetImageAvailableCallback()</li>
+		<ul>
+			<li>static void callBackSignature(QTVisualContextRef vContext, const CVTimeStamp *frameTime, void *refCon)</li>
+			<ul>
+				<li>QTVisualContextCopyImageForTime()</li>
+				<li>CVImageBufferRef</li>
+				<ul>
+					<li>CVBufferGetAttachment</li>
+					<ul>
+						<li>kCVBufferTimeValueKey</li>
+						<li>kCVBufferTimeScaleKey</li>
+					</ul>
+				</ul>
+			</ul>
+		</ul>
+		</br>
+		</br>
+		<li>In my old code I would create a QTVisualContextRef with QTOpenGLTextureContextCreate().</li> 
+		<li>In my CVDisplayLink callback I would call QTVisualContextIsNewImageAvailable() </li>
+		<li>Then grab the next frame with QTVisualContextCopyImageForTime into a CVImageBuffer</li>
+	</ul>
+
+
+
+</body>
+
+

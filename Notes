@@ -1,0 +1,122 @@
+http://stackoverflow.com/questions/19708383/avplayer-not-synchronized
+
+Play message
+PCVideoController
+    ->
+        PCAVMovieController
+                ->
+                    PCMoviePlayer
+                            ->
+                                AVPlayer
+
+
+
+
+
+//        cv::Mat nImgB;
+//        cv::Mat resizedB;
+//        std::vector<cv::Mat> layersB;
+//        std::vector<cv::Mat> channelsB;
+//        cv::split(imgB, layersB);
+//        channelsB.push_back(layersB.at(0));
+//        channelsB.push_back(layersB.at(1));
+//        channelsB.push_back(layersB.at(2));
+//
+//        cv::merge(channelsB, nImgB);
+//        cv::resize(imgB, resizedB, cv::Size(1920,1080), 0, 0, cv::INTER_LINEAR);
+
+
+
+if ([event stop] <= [region start]) {
+//precedes region
+if ([event action] == CN_ACTION_INSERT) {
+[region add:[event length]];
+} else if ([event action] == CN_ACTION_DELETE){
+[region subtract:[event length]];
+}
+}
+
+if ([event start] <= [region start] && [event stop] >= [region stop]) {
+
+if ([event action] == CN_ACTION_INSERT) {
+[region add:[event length]];
+} else if ([event action] == CN_ACTION_DELETE){
+//delete region
+
+if ([event isMove] == YES) {
+CNChangeNoteEvent * moveEvent = [event associatedEvent];
+NSUInteger startOffset = [region start] - [event start];
+[region add:startOffset + ([moveEvent start] - [region start])];
+[region setLocked:YES];
+} else {
+[regionArray removeObject:region];
+}
+
+}
+}
+
+if ([event start] <= [region start] && [event stop] > [region start] && [event stop] < [region stop]) {
+
+if ([event action] == CN_ACTION_INSERT) {
+[region add:[event length]];
+} else if ([event action] == CN_ACTION_DELETE){
+//cut head of region
+
+if ([event isMove] == YES) {
+CNChangeNoteEvent * moveEvent = [event associatedEvent];
+PCChangeNoteViewRegion * nextRegion = [PCChangeNoteViewRegion regionWithStart:[region start] andStop:[event stop]];
+NSUInteger startOffset = [region start] - [event start];
+[nextRegion add:startOffset + ([moveEvent start] - [region start])];
+[nextRegion setLocked:YES];
+
+[regionArray addObject:nextRegion];
+}
+
+[region setStart:[event stop]];
+[region subtract:[event length]];
+}
+}
+
+if ([event start] > [region start] && [event start] < [region stop] && [event stop] > [region stop]) {;
+
+if ([event action] == CN_ACTION_INSERT) {
+PCChangeNoteViewRegion * nextRegion = [PCChangeNoteViewRegion regionWithStart:[event stop] andStop:[region stop]];
+[nextRegion add:[event length]];
+[regionArray addObject:nextRegion];
+
+[region setStop:[event start]];
+
+} else if ([event action] == CN_ACTION_DELETE){
+
+if ([event isMove] == YES) {
+CNChangeNoteEvent * moveEvent = [event associatedEvent];
+PCChangeNoteViewRegion * nextRegion = [PCChangeNoteViewRegion regionWithStart:[event start] andStop:[region stop]];
+[nextRegion add:[moveEvent start] - [event start]];
+[nextRegion setLocked:YES];
+[regionArray addObject:nextRegion];
+}
+
+//cut tail of region
+[region setStop:[event start]];
+}
+}
+
+if ([event start] > [region start] && [event stop] < [region stop]) {
+
+if ([event action] == CN_ACTION_INSERT) {
+
+[region addToTail:[event length]];
+
+} else if ([event action] == CN_ACTION_DELETE){
+
+if ([event isMove] == YES) {
+
+}
+
+PCChangeNoteViewRegion * nextRegion = [PCChangeNoteViewRegion regionWithStart:[event stop] andStop:[region stop]];
+[nextRegion subtract:[event length]];
+[regionArray addObject:nextRegion];
+
+[region setStop:[event start]];
+}
+}

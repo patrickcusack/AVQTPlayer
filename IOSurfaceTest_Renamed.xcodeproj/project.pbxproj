@@ -1,0 +1,998 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D801D756111337A2001640FF /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D801D76111133815001640FF /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D801D75C111337B0001640FF /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2A11635D1B0AF79700793CBD /* PCTCformatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A11635C1B0AF79700793CBD /* PCTCformatter.m */; };
+		2A1D03621B1A0E830063F564 /* QTMovie_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D03611B1A0E830063F564 /* QTMovie_Extension.m */; };
+		2A62A3AC1B0317E100C56362 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A62A3AB1B0317E100C56362 /* AppDelegate.m */; };
+		2A62A3AE1B0317E100C56362 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A62A3AD1B0317E100C56362 /* main.m */; };
+		2A62A3B01B0317E100C56362 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A62A3AF1B0317E100C56362 /* Images.xcassets */; };
+		2A62A3B31B0317E100C56362 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A62A3B11B0317E100C56362 /* MainMenu.xib */; };
+		2A62A3C71B03181500C56362 /* PCVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A36B51B005DCF006550A8 /* PCVideoController.m */; };
+		2A62A3C91B03181500C56362 /* PCAVMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A44454C1B026CD400BC4C7F /* PCAVMovieController.m */; };
+		2A62A3D11B03181500C56362 /* PCMoviePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A36A11AFEF931006550A8 /* PCMoviePlayer.m */; };
+		2A62A3D31B03181500C56362 /* VideoOutputLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0A36A31AFEF931006550A8 /* VideoOutputLayer.m */; };
+		2A7C59141B45922F00EE5AF1 /* ShaderDemoAdd.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2A7C59121B45922F00EE5AF1 /* ShaderDemoAdd.fsh */; };
+		2A7C59151B45922F00EE5AF1 /* ShaderDemoAdd.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2A7C59131B45922F00EE5AF1 /* ShaderDemoAdd.vsh */; };
+		2A7C592A1B45971C00EE5AF1 /* ShaderHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C59291B45971C00EE5AF1 /* ShaderHelpers.m */; };
+		2A9005B11B0C482500761768 /* PCKeyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9005B01B0C482500761768 /* PCKeyController.m */; };
+		2A9005B51B0CC12100761768 /* PCVideoDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9005B41B0CC12100761768 /* PCVideoDragView.m */; };
+		2A9BA4611B424D080057B4F7 /* PCOpenGLDiffPixelBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9BA4601B424D080057B4F7 /* PCOpenGLDiffPixelBuffer.m */; };
+		2AB8C0B81B48805E0098A42F /* PCOpenGLScreen.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C0B71B48805E0098A42F /* PCOpenGLScreen.mm */; };
+		2AB8C0D31B48806E0098A42F /* ImageHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C0BB1B48806E0098A42F /* ImageHelper.mm */; };
+		2AB8C0D41B48806E0098A42F /* ShaderDemoAdd.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2AB8C0CA1B48806E0098A42F /* ShaderDemoAdd.fsh */; };
+		2AB8C0D51B48806E0098A42F /* ShaderDemoAdd.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2AB8C0CB1B48806E0098A42F /* ShaderDemoAdd.vsh */; };
+		2AB8C0D61B48806E0098A42F /* GLBatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C0CD1B48806E0098A42F /* GLBatch.cpp */; };
+		2AB8C0D71B48806E0098A42F /* glew.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C0CE1B48806E0098A42F /* glew.c */; };
+		2AB8C0D81B48806E0098A42F /* GLShaderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C0CF1B48806E0098A42F /* GLShaderManager.cpp */; };
+		2AB8C0D91B48806E0098A42F /* GLTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C0D01B48806E0098A42F /* GLTools.cpp */; };
+		2AB8C0DA1B48806E0098A42F /* GLTriangleBatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C0D11B48806E0098A42F /* GLTriangleBatch.cpp */; };
+		2AB8C0DB1B48806E0098A42F /* math3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C0D21B48806E0098A42F /* math3d.cpp */; };
+		2AB8C0DC1B48811B0098A42F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0A36B21AFEFA1F006550A8 /* CoreMedia.framework */; };
+		2AB8C0DD1B48811B0098A42F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0A36B01AFEF9FD006550A8 /* AVFoundation.framework */; };
+		2AB8C0DE1B48811B0098A42F /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0A36AE1AFEF9E2006550A8 /* Quartz.framework */; };
+		2AB8C0DF1B48811B0098A42F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF7106F1AFC80E7004A5155 /* QuartzCore.framework */; };
+		2AB8C0E01B48811B0098A42F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		2AB8C0E11B48811B0098A42F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD5B5B31067AA900003967B /* OpenGL.framework */; };
+		2AB8C0E21B48811B0098A42F /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECDA41063B9E900140C2F /* IOSurface.framework */; };
+		2AB8C0E31B48811B0098A42F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECE691063C34F00140C2F /* CoreVideo.framework */; };
+		2AB8C0E41B48811B0098A42F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECE741063C36000140C2F /* CoreAudio.framework */; };
+		2AB8C0E51B48811B0098A42F /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5CBDF107E49A50039A990 /* Quartz.framework */; };
+		2AB8C0EB1B48814F0098A42F /* PCOpenGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C0EA1B48814F0098A42F /* PCOpenGLLayer.m */; };
+		2AB8C11E1B4A3EB30098A42F /* PCVideoController+PCVideoControllerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB8C11D1B4A3EB30098A42F /* PCVideoController+PCVideoControllerDisplay.m */; };
+		2AC829EB1B12C3780029F193 /* PCTransportMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC829E21B12C3780029F193 /* PCTransportMainButton.m */; };
+		2AC829EC1B12C3780029F193 /* PCTransportDirectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC829E41B12C3780029F193 /* PCTransportDirectionButton.m */; };
+		2AC829ED1B12C3780029F193 /* PCTransportSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC829E61B12C3780029F193 /* PCTransportSliderView.m */; };
+		2AC829EE1B12C3780029F193 /* PCTransportPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC829E81B12C3780029F193 /* PCTransportPlayButton.m */; };
+		2AC829EF1B12C3780029F193 /* PCDisableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC829EA1B12C3780029F193 /* PCDisableView.m */; };
+		2AC829F71B12C38E0029F193 /* PCTransportHolderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC829F11B12C38E0029F193 /* PCTransportHolderViewController.xib */; };
+		2AC829F81B12C38E0029F193 /* PCTransportHolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC829F31B12C38E0029F193 /* PCTransportHolderViewController.m */; };
+		2AC829F91B12C38E0029F193 /* PCTransportHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC829F61B12C38E0029F193 /* PCTransportHolderView.m */; };
+		2AC829FE1B12C3980029F193 /* PCGraphicsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC829FB1B12C3980029F193 /* PCGraphicsHelper.m */; };
+		2AC829FF1B12C3980029F193 /* NSBezierPath+BezierPathQuartzUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC829FD1B12C3980029F193 /* NSBezierPath+BezierPathQuartzUtilities.m */; };
+		2AC82A031B12CA040029F193 /* PCVideoStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC82A021B12CA040029F193 /* PCVideoStrings.m */; };
+		2AD53A361B18C9D700E5D588 /* 2pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AD53A351B18C9D700E5D588 /* 2pop.png */; };
+		2AEAFD911B7A89200021B05D /* PCVideoControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAFD8F1B7A89200021B05D /* PCVideoControllerViewController.m */; };
+		2AEAFD921B7A89200021B05D /* PCVideoControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AEAFD901B7A89200021B05D /* PCVideoControllerViewController.xib */; };
+		2AF077651B157CC2007A6616 /* IOMoviePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF077631B157CAC007A6616 /* IOMoviePlayer.m */; };
+		2AF077661B158097007A6616 /* TaskWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5B50110677E950003967B /* TaskWrapper.m */; };
+		2AF077671B1580A3007A6616 /* IOSurfaceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7106D1AFC788C004A5155 /* IOSurfaceLayer.m */; };
+		2AF0776B1B158339007A6616 /* PCIOMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF077691B158325007A6616 /* PCIOMovieController.m */; };
+		2AF0776D1B16D68E007A6616 /* IOSurfaceCLI in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5B47010676F550003967B /* IOSurfaceCLI */; };
+		2AF710681AFBD558004A5155 /* PCMovieRenderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF710661AFBD46F004A5155 /* PCMovieRenderObject.m */; };
+		2AF7106B1AFC5460004A5155 /* MultiMovieRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7106A1AFC5460004A5155 /* MultiMovieRenderer.m */; };
+		8BD5B48010676FB40003967B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
+		8BD5B48110676FB50003967B /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECDA61063B9E900140C2F /* QTKit.framework */; };
+		8BD5B48510676FBE0003967B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECE691063C34F00140C2F /* CoreVideo.framework */; };
+		8BD5B48810676FDF0003967B /* IOSurfaceCLI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5B48710676FDF0003967B /* IOSurfaceCLI.m */; };
+		8BD5B4A0106775380003967B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECE741063C36000140C2F /* CoreAudio.framework */; };
+		8BD5B4B1106776610003967B /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECE6B1063C34F00140C2F /* QuickTime.framework */; };
+		8BD5B4B51067766A0003967B /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECDA41063B9E900140C2F /* IOSurface.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D801D75B111337B0001640FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BD5B46F10676F550003967B;
+			remoteInfo = IOSurfaceCLI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* IOSurfaceTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSurfaceTest_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2A0A369C1AFEF8F3006550A8 /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		2A0A369D1AFEF8F3006550A8 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		2A0A36A01AFEF931006550A8 /* PCMoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMoviePlayer.h; sourceTree = "<group>"; };
+		2A0A36A11AFEF931006550A8 /* PCMoviePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMoviePlayer.m; sourceTree = "<group>"; };
+		2A0A36A21AFEF931006550A8 /* VideoOutputLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoOutputLayer.h; sourceTree = "<group>"; };
+		2A0A36A31AFEF931006550A8 /* VideoOutputLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoOutputLayer.m; sourceTree = "<group>"; };
+		2A0A36AE1AFEF9E2006550A8 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		2A0A36B01AFEF9FD006550A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2A0A36B21AFEFA1F006550A8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2A0A36B41B005DCF006550A8 /* PCVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCVideoController.h; sourceTree = "<group>"; };
+		2A0A36B51B005DCF006550A8 /* PCVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCVideoController.m; sourceTree = "<group>"; };
+		2A11635B1B0AF79700793CBD /* PCTCformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCTCformatter.h; path = "../../ADR PROGRAM 0920_nc/PCTCformatter.h"; sourceTree = "<group>"; };
+		2A11635C1B0AF79700793CBD /* PCTCformatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCTCformatter.m; path = "../../ADR PROGRAM 0920_nc/PCTCformatter.m"; sourceTree = "<group>"; };
+		2A1D03601B1A0E830063F564 /* QTMovie_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTMovie_Extension.h; sourceTree = "<group>"; };
+		2A1D03611B1A0E830063F564 /* QTMovie_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTMovie_Extension.m; sourceTree = "<group>"; };
+		2A44454B1B026CD400BC4C7F /* PCAVMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCAVMovieController.h; sourceTree = "<group>"; };
+		2A44454C1B026CD400BC4C7F /* PCAVMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCAVMovieController.m; sourceTree = "<group>"; };
+		2A62A3A61B0317E100C56362 /* MultiMoviePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiMoviePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A62A3A91B0317E100C56362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A62A3AA1B0317E100C56362 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A62A3AB1B0317E100C56362 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A62A3AD1B0317E100C56362 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A62A3AF1B0317E100C56362 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2A62A3B21B0317E100C56362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2A7C59121B45922F00EE5AF1 /* ShaderDemoAdd.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ShaderDemoAdd.fsh; sourceTree = "<group>"; };
+		2A7C59131B45922F00EE5AF1 /* ShaderDemoAdd.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ShaderDemoAdd.vsh; sourceTree = "<group>"; };
+		2A7C59281B45971C00EE5AF1 /* ShaderHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderHelpers.h; sourceTree = "<group>"; };
+		2A7C59291B45971C00EE5AF1 /* ShaderHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderHelpers.m; sourceTree = "<group>"; };
+		2A9005AF1B0C482500761768 /* PCKeyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCKeyController.h; sourceTree = "<group>"; };
+		2A9005B01B0C482500761768 /* PCKeyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCKeyController.m; sourceTree = "<group>"; };
+		2A9005B21B0C490A00761768 /* PCKeyControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCKeyControllerDelegate.h; sourceTree = "<group>"; };
+		2A9005B31B0CC12100761768 /* PCVideoDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCVideoDragView.h; sourceTree = "<group>"; };
+		2A9005B41B0CC12100761768 /* PCVideoDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCVideoDragView.m; sourceTree = "<group>"; };
+		2A9005B61B0CC1C100761768 /* PCDragViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCDragViewControllerDelegate.h; sourceTree = "<group>"; };
+		2A9965A11B44CF3E00AFA969 /* PCOpenGLDiffController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCOpenGLDiffController.h; sourceTree = "<group>"; };
+		2A9965A21B44CF3E00AFA969 /* PCOpenGLDiffController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCOpenGLDiffController.m; sourceTree = "<group>"; };
+		2A9BA45F1B424D080057B4F7 /* PCOpenGLDiffPixelBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCOpenGLDiffPixelBuffer.h; sourceTree = "<group>"; };
+		2A9BA4601B424D080057B4F7 /* PCOpenGLDiffPixelBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCOpenGLDiffPixelBuffer.m; sourceTree = "<group>"; };
+		2AB8C0B61B48805E0098A42F /* PCOpenGLScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCOpenGLScreen.h; sourceTree = "<group>"; };
+		2AB8C0B71B48805E0098A42F /* PCOpenGLScreen.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PCOpenGLScreen.mm; sourceTree = "<group>"; };
+		2AB8C0BA1B48806E0098A42F /* ImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageHelper.h; sourceTree = "<group>"; };
+		2AB8C0BB1B48806E0098A42F /* ImageHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageHelper.mm; sourceTree = "<group>"; };
+		2AB8C0BE1B48806E0098A42F /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		2AB8C0BF1B48806E0098A42F /* GLBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatch.h; sourceTree = "<group>"; };
+		2AB8C0C01B48806E0098A42F /* GLBatchBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatchBase.h; sourceTree = "<group>"; };
+		2AB8C0C11B48806E0098A42F /* GLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrame.h; sourceTree = "<group>"; };
+		2AB8C0C21B48806E0098A42F /* GLFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrustum.h; sourceTree = "<group>"; };
+		2AB8C0C31B48806E0098A42F /* GLGeometryTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGeometryTransform.h; sourceTree = "<group>"; };
+		2AB8C0C41B48806E0098A42F /* GLMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMatrixStack.h; sourceTree = "<group>"; };
+		2AB8C0C51B48806E0098A42F /* GLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShaderManager.h; sourceTree = "<group>"; };
+		2AB8C0C61B48806E0098A42F /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
+		2AB8C0C71B48806E0098A42F /* GLTriangleBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTriangleBatch.h; sourceTree = "<group>"; };
+		2AB8C0C81B48806E0098A42F /* math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
+		2AB8C0C91B48806E0098A42F /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		2AB8C0CA1B48806E0098A42F /* ShaderDemoAdd.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ShaderDemoAdd.fsh; sourceTree = "<group>"; };
+		2AB8C0CB1B48806E0098A42F /* ShaderDemoAdd.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ShaderDemoAdd.vsh; sourceTree = "<group>"; };
+		2AB8C0CD1B48806E0098A42F /* GLBatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLBatch.cpp; sourceTree = "<group>"; };
+		2AB8C0CE1B48806E0098A42F /* glew.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glew.c; sourceTree = "<group>"; };
+		2AB8C0CF1B48806E0098A42F /* GLShaderManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLShaderManager.cpp; sourceTree = "<group>"; };
+		2AB8C0D01B48806E0098A42F /* GLTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLTools.cpp; sourceTree = "<group>"; };
+		2AB8C0D11B48806E0098A42F /* GLTriangleBatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLTriangleBatch.cpp; sourceTree = "<group>"; };
+		2AB8C0D21B48806E0098A42F /* math3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = math3d.cpp; sourceTree = "<group>"; };
+		2AB8C0E61B48811B0098A42F /* IOSurfaceTest_Renamed.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = IOSurfaceTest_Renamed.xcodeproj; sourceTree = "<group>"; };
+		2AB8C0E91B48814F0098A42F /* PCOpenGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCOpenGLLayer.h; path = ../../CAOpenGLLayerTest/CAOpenGLLayerTest/PCOpenGLLayer.h; sourceTree = "<group>"; };
+		2AB8C0EA1B48814F0098A42F /* PCOpenGLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCOpenGLLayer.m; path = ../../CAOpenGLLayerTest/CAOpenGLLayerTest/PCOpenGLLayer.m; sourceTree = "<group>"; };
+		2AB8C11A1B488BBC0098A42F /* PCPixelBufferConsumerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPixelBufferConsumerProtocol.h; sourceTree = "<group>"; };
+		2AB8C11C1B4A3EB30098A42F /* PCVideoController+PCVideoControllerDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PCVideoController+PCVideoControllerDisplay.h"; sourceTree = "<group>"; };
+		2AB8C11D1B4A3EB30098A42F /* PCVideoController+PCVideoControllerDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PCVideoController+PCVideoControllerDisplay.m"; sourceTree = "<group>"; };
+		2AC829E11B12C3780029F193 /* PCTransportMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCTransportMainButton.h; path = ../../VideoController/VideoController/PCTransportMainButton.h; sourceTree = "<group>"; };
+		2AC829E21B12C3780029F193 /* PCTransportMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCTransportMainButton.m; path = ../../VideoController/VideoController/PCTransportMainButton.m; sourceTree = "<group>"; };
+		2AC829E31B12C3780029F193 /* PCTransportDirectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCTransportDirectionButton.h; path = ../../VideoController/VideoController/PCTransportDirectionButton.h; sourceTree = "<group>"; };
+		2AC829E41B12C3780029F193 /* PCTransportDirectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCTransportDirectionButton.m; path = ../../VideoController/VideoController/PCTransportDirectionButton.m; sourceTree = "<group>"; };
+		2AC829E51B12C3780029F193 /* PCTransportSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCTransportSliderView.h; path = ../../VideoController/VideoController/PCTransportSliderView.h; sourceTree = "<group>"; };
+		2AC829E61B12C3780029F193 /* PCTransportSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCTransportSliderView.m; path = ../../VideoController/VideoController/PCTransportSliderView.m; sourceTree = "<group>"; };
+		2AC829E71B12C3780029F193 /* PCTransportPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCTransportPlayButton.h; path = ../../VideoController/VideoController/PCTransportPlayButton.h; sourceTree = "<group>"; };
+		2AC829E81B12C3780029F193 /* PCTransportPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCTransportPlayButton.m; path = ../../VideoController/VideoController/PCTransportPlayButton.m; sourceTree = "<group>"; };
+		2AC829E91B12C3780029F193 /* PCDisableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCDisableView.h; path = ../../VideoController/VideoController/PCDisableView.h; sourceTree = "<group>"; };
+		2AC829EA1B12C3780029F193 /* PCDisableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCDisableView.m; path = ../../VideoController/VideoController/PCDisableView.m; sourceTree = "<group>"; };
+		2AC829F11B12C38E0029F193 /* PCTransportHolderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PCTransportHolderViewController.xib; path = ../../VideoController/VideoController/PCTransportHolderViewController.xib; sourceTree = "<group>"; };
+		2AC829F21B12C38E0029F193 /* PCTransportHolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCTransportHolderViewController.h; path = ../../VideoController/VideoController/PCTransportHolderViewController.h; sourceTree = "<group>"; };
+		2AC829F31B12C38E0029F193 /* PCTransportHolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCTransportHolderViewController.m; path = ../../VideoController/VideoController/PCTransportHolderViewController.m; sourceTree = "<group>"; };
+		2AC829F41B12C38E0029F193 /* PCTransportDelegateProcotol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCTransportDelegateProcotol.h; path = ../../VideoController/VideoController/PCTransportDelegateProcotol.h; sourceTree = "<group>"; };
+		2AC829F51B12C38E0029F193 /* PCTransportHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCTransportHolderView.h; path = ../../VideoController/PCTransportHolderView.h; sourceTree = "<group>"; };
+		2AC829F61B12C38E0029F193 /* PCTransportHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCTransportHolderView.m; path = ../../VideoController/PCTransportHolderView.m; sourceTree = "<group>"; };
+		2AC829FA1B12C3980029F193 /* PCGraphicsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCGraphicsHelper.h; path = ../../VideoController/VideoController/PCGraphicsHelper.h; sourceTree = "<group>"; };
+		2AC829FB1B12C3980029F193 /* PCGraphicsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCGraphicsHelper.m; path = ../../VideoController/VideoController/PCGraphicsHelper.m; sourceTree = "<group>"; };
+		2AC829FC1B12C3980029F193 /* NSBezierPath+BezierPathQuartzUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+BezierPathQuartzUtilities.h"; path = "../../VideoController/VideoController/NSBezierPath+BezierPathQuartzUtilities.h"; sourceTree = "<group>"; };
+		2AC829FD1B12C3980029F193 /* NSBezierPath+BezierPathQuartzUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+BezierPathQuartzUtilities.m"; path = "../../VideoController/VideoController/NSBezierPath+BezierPathQuartzUtilities.m"; sourceTree = "<group>"; };
+		2AC82A011B12CA040029F193 /* PCVideoStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCVideoStrings.h; sourceTree = "<group>"; };
+		2AC82A021B12CA040029F193 /* PCVideoStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCVideoStrings.m; sourceTree = "<group>"; };
+		2ACE3D301AECA5AD00453686 /* PCProxyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCProxyProtocol.h; sourceTree = "<group>"; };
+		2AD53A341B18C55500E5D588 /* PCMovieControllerProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMovieControllerProxy.h; sourceTree = "<group>"; };
+		2AD53A351B18C9D700E5D588 /* 2pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2pop.png; sourceTree = "<group>"; };
+		2AEAFD8E1B7A89200021B05D /* PCVideoControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCVideoControllerViewController.h; sourceTree = "<group>"; };
+		2AEAFD8F1B7A89200021B05D /* PCVideoControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCVideoControllerViewController.m; sourceTree = "<group>"; };
+		2AEAFD901B7A89200021B05D /* PCVideoControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PCVideoControllerViewController.xib; sourceTree = "<group>"; };
+		2AEF5F411B4E2FFF004DF021 /* PCOpenGLScreenProviderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCOpenGLScreenProviderProtocol.h; sourceTree = "<group>"; };
+		2AF077621B157CAC007A6616 /* IOMoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOMoviePlayer.h; sourceTree = "<group>"; };
+		2AF077631B157CAC007A6616 /* IOMoviePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOMoviePlayer.m; sourceTree = "<group>"; };
+		2AF077681B158325007A6616 /* PCIOMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCIOMovieController.h; sourceTree = "<group>"; };
+		2AF077691B158325007A6616 /* PCIOMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCIOMovieController.m; sourceTree = "<group>"; };
+		2AF07EA91B43B5FC0082D5C7 /* PCVideoTapDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCVideoTapDelegateProtocol.h; sourceTree = "<group>"; };
+		2AF710651AFBD46F004A5155 /* PCMovieRenderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMovieRenderObject.h; sourceTree = "<group>"; };
+		2AF710661AFBD46F004A5155 /* PCMovieRenderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMovieRenderObject.m; sourceTree = "<group>"; };
+		2AF710691AFC5460004A5155 /* MultiMovieRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiMovieRenderer.h; sourceTree = "<group>"; };
+		2AF7106A1AFC5460004A5155 /* MultiMovieRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiMovieRenderer.m; sourceTree = "<group>"; };
+		2AF7106C1AFC788C004A5155 /* IOSurfaceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSurfaceLayer.h; sourceTree = "<group>"; };
+		2AF7106D1AFC788C004A5155 /* IOSurfaceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSurfaceLayer.m; sourceTree = "<group>"; };
+		2AF7106F1AFC80E7004A5155 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8B1ECDA41063B9E900140C2F /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = /System/Library/Frameworks/IOSurface.framework; sourceTree = "<absolute>"; };
+		8B1ECDA61063B9E900140C2F /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		8B1ECE691063C34F00140C2F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		8B1ECE6B1063C34F00140C2F /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		8B1ECE741063C36000140C2F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		8BD5B47010676F550003967B /* IOSurfaceCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IOSurfaceCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD5B48710676FDF0003967B /* IOSurfaceCLI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSurfaceCLI.m; sourceTree = "<group>"; };
+		8BD5B50010677E950003967B /* TaskWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaskWrapper.h; path = Classes/TaskWrapper.h; sourceTree = "<group>"; };
+		8BD5B50110677E950003967B /* TaskWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaskWrapper.m; path = Classes/TaskWrapper.m; sourceTree = "<group>"; };
+		8BD5B5B31067AA900003967B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* IOSurfaceTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IOSurfaceTest-Info.plist"; sourceTree = "<group>"; };
+		D8B5CBD3107E47E80039A990 /* IOSurfacePlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOSurfacePlugin-Info.plist"; sourceTree = "<group>"; };
+		D8B5CBDF107E49A50039A990 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A62A3A31B0317E100C56362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB8C0DC1B48811B0098A42F /* CoreMedia.framework in Frameworks */,
+				2AB8C0DD1B48811B0098A42F /* AVFoundation.framework in Frameworks */,
+				2AB8C0DE1B48811B0098A42F /* Quartz.framework in Frameworks */,
+				2AB8C0DF1B48811B0098A42F /* QuartzCore.framework in Frameworks */,
+				2AB8C0E01B48811B0098A42F /* Cocoa.framework in Frameworks */,
+				2AB8C0E11B48811B0098A42F /* OpenGL.framework in Frameworks */,
+				2AB8C0E21B48811B0098A42F /* IOSurface.framework in Frameworks */,
+				2AB8C0E31B48811B0098A42F /* CoreVideo.framework in Frameworks */,
+				2AB8C0E41B48811B0098A42F /* CoreAudio.framework in Frameworks */,
+				2AB8C0E51B48811B0098A42F /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD5B46E10676F550003967B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD5B48010676FB40003967B /* Foundation.framework in Frameworks */,
+				8BD5B48110676FB50003967B /* QTKit.framework in Frameworks */,
+				8BD5B48510676FBE0003967B /* CoreVideo.framework in Frameworks */,
+				8BD5B4A0106775380003967B /* CoreAudio.framework in Frameworks */,
+				8BD5B4B1106776610003967B /* QuickTime.framework in Frameworks */,
+				8BD5B4B51067766A0003967B /* IOSurface.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A9965A41B44E2D300AFA969 /* PCOpenGLDiff */,
+				2AEAFD8E1B7A89200021B05D /* PCVideoControllerViewController.h */,
+				2AEAFD8F1B7A89200021B05D /* PCVideoControllerViewController.m */,
+				2AEAFD901B7A89200021B05D /* PCVideoControllerViewController.xib */,
+				2A0A36B41B005DCF006550A8 /* PCVideoController.h */,
+				2A0A36B51B005DCF006550A8 /* PCVideoController.m */,
+				2AB8C11C1B4A3EB30098A42F /* PCVideoController+PCVideoControllerDisplay.h */,
+				2AB8C11D1B4A3EB30098A42F /* PCVideoController+PCVideoControllerDisplay.m */,
+				2AD53A341B18C55500E5D588 /* PCMovieControllerProxy.h */,
+				2AF0776C1B1588E3007A6616 /* Graphics Helper */,
+				2AF077611B157C5F007A6616 /* IOSurfacePlayer */,
+				2A0A36A71AFEF951006550A8 /* AVPlayer */,
+				2AC829E01B12C3620029F193 /* Transport */,
+				2AC82A041B12D9D40029F193 /* PCVideoController Controls */,
+				2A0A369B1AFEF8B1006550A8 /* IOSurface */,
+				2AC82A011B12CA040029F193 /* PCVideoStrings.h */,
+				2AC82A021B12CA040029F193 /* PCVideoStrings.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				8BD5B5B31067AA900003967B /* OpenGL.framework */,
+				8B1ECDA41063B9E900140C2F /* IOSurface.framework */,
+				8B1ECDA61063B9E900140C2F /* QTKit.framework */,
+				8B1ECE6B1063C34F00140C2F /* QuickTime.framework */,
+				8B1ECE691063C34F00140C2F /* CoreVideo.framework */,
+				8B1ECE741063C36000140C2F /* CoreAudio.framework */,
+				D8B5CBDF107E49A50039A990 /* Quartz.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BD5B47010676F550003967B /* IOSurfaceCLI */,
+				2A62A3A61B0317E100C56362 /* MultiMoviePlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* IOSurfaceTest */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C59281B45971C00EE5AF1 /* ShaderHelpers.h */,
+				2A7C59291B45971C00EE5AF1 /* ShaderHelpers.m */,
+				2A0A369C1AFEF8F3006550A8 /* Notes */,
+				2A11635B1B0AF79700793CBD /* PCTCformatter.h */,
+				2A11635C1B0AF79700793CBD /* PCTCformatter.m */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				2A62A3A71B0317E100C56362 /* MultiMoviePlayer */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = IOSurfaceTest;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2A0A369D1AFEF8F3006550A8 /* TemplateIcon2x.png */,
+				256AC3F00F4B6AF500CF3369 /* IOSurfaceTest_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AD53A351B18C9D700E5D588 /* 2pop.png */,
+				8D1107310486CEB800E47090 /* IOSurfaceTest-Info.plist */,
+				D8B5CBD3107E47E80039A990 /* IOSurfacePlugin-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8C0E61B48811B0098A42F /* IOSurfaceTest_Renamed.xcodeproj */,
+				2A0A36B21AFEFA1F006550A8 /* CoreMedia.framework */,
+				2A0A36B01AFEF9FD006550A8 /* AVFoundation.framework */,
+				2A0A36AE1AFEF9E2006550A8 /* Quartz.framework */,
+				2AF7106F1AFC80E7004A5155 /* QuartzCore.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A0A369B1AFEF8B1006550A8 /* IOSurface */ = {
+			isa = PBXGroup;
+			children = (
+				2A1D03601B1A0E830063F564 /* QTMovie_Extension.h */,
+				2A1D03611B1A0E830063F564 /* QTMovie_Extension.m */,
+				2AF710651AFBD46F004A5155 /* PCMovieRenderObject.h */,
+				2AF710661AFBD46F004A5155 /* PCMovieRenderObject.m */,
+				2AF710691AFC5460004A5155 /* MultiMovieRenderer.h */,
+				2AF7106A1AFC5460004A5155 /* MultiMovieRenderer.m */,
+				8BD5B48710676FDF0003967B /* IOSurfaceCLI.m */,
+			);
+			name = IOSurface;
+			sourceTree = "<group>";
+		};
+		2A0A36A71AFEF951006550A8 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				2A44454B1B026CD400BC4C7F /* PCAVMovieController.h */,
+				2A44454C1B026CD400BC4C7F /* PCAVMovieController.m */,
+				2A0A36A01AFEF931006550A8 /* PCMoviePlayer.h */,
+				2A0A36A11AFEF931006550A8 /* PCMoviePlayer.m */,
+				2A0A36A21AFEF931006550A8 /* VideoOutputLayer.h */,
+				2A0A36A31AFEF931006550A8 /* VideoOutputLayer.m */,
+			);
+			name = AVPlayer;
+			sourceTree = "<group>";
+		};
+		2A62A3A71B0317E100C56362 /* MultiMoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				2A62A3AA1B0317E100C56362 /* AppDelegate.h */,
+				2A62A3AB1B0317E100C56362 /* AppDelegate.m */,
+				2A62A3AF1B0317E100C56362 /* Images.xcassets */,
+				2A62A3B11B0317E100C56362 /* MainMenu.xib */,
+				2A62A3A81B0317E100C56362 /* Supporting Files */,
+			);
+			path = MultiMoviePlayer;
+			sourceTree = "<group>";
+		};
+		2A62A3A81B0317E100C56362 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A62A3A91B0317E100C56362 /* Info.plist */,
+				2A62A3AD1B0317E100C56362 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A7C59111B45920500EE5AF1 /* Diff Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8C0B91B48806E0098A42F /* GLTools */,
+				2AB8C0B61B48805E0098A42F /* PCOpenGLScreen.h */,
+				2AB8C0B71B48805E0098A42F /* PCOpenGLScreen.mm */,
+				2AEF5F411B4E2FFF004DF021 /* PCOpenGLScreenProviderProtocol.h */,
+				2AB8C11A1B488BBC0098A42F /* PCPixelBufferConsumerProtocol.h */,
+				2AB8C0E91B48814F0098A42F /* PCOpenGLLayer.h */,
+				2AB8C0EA1B48814F0098A42F /* PCOpenGLLayer.m */,
+				2A7C59121B45922F00EE5AF1 /* ShaderDemoAdd.fsh */,
+				2A7C59131B45922F00EE5AF1 /* ShaderDemoAdd.vsh */,
+			);
+			name = "Diff Controller";
+			sourceTree = "<group>";
+		};
+		2A9965A41B44E2D300AFA969 /* PCOpenGLDiff */ = {
+			isa = PBXGroup;
+			children = (
+				2AF07EA91B43B5FC0082D5C7 /* PCVideoTapDelegateProtocol.h */,
+				2A7C59111B45920500EE5AF1 /* Diff Controller */,
+				2A9965A11B44CF3E00AFA969 /* PCOpenGLDiffController.h */,
+				2A9965A21B44CF3E00AFA969 /* PCOpenGLDiffController.m */,
+				2A9BA45F1B424D080057B4F7 /* PCOpenGLDiffPixelBuffer.h */,
+				2A9BA4601B424D080057B4F7 /* PCOpenGLDiffPixelBuffer.m */,
+			);
+			name = PCOpenGLDiff;
+			sourceTree = "<group>";
+		};
+		2AB8C0B91B48806E0098A42F /* GLTools */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8C0BA1B48806E0098A42F /* ImageHelper.h */,
+				2AB8C0BB1B48806E0098A42F /* ImageHelper.mm */,
+				2AB8C0BC1B48806E0098A42F /* include */,
+				2AB8C0CA1B48806E0098A42F /* ShaderDemoAdd.fsh */,
+				2AB8C0CB1B48806E0098A42F /* ShaderDemoAdd.vsh */,
+				2AB8C0CC1B48806E0098A42F /* src */,
+			);
+			path = GLTools;
+			sourceTree = "<group>";
+		};
+		2AB8C0BC1B48806E0098A42F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8C0BD1B48806E0098A42F /* GL */,
+				2AB8C0BF1B48806E0098A42F /* GLBatch.h */,
+				2AB8C0C01B48806E0098A42F /* GLBatchBase.h */,
+				2AB8C0C11B48806E0098A42F /* GLFrame.h */,
+				2AB8C0C21B48806E0098A42F /* GLFrustum.h */,
+				2AB8C0C31B48806E0098A42F /* GLGeometryTransform.h */,
+				2AB8C0C41B48806E0098A42F /* GLMatrixStack.h */,
+				2AB8C0C51B48806E0098A42F /* GLShaderManager.h */,
+				2AB8C0C61B48806E0098A42F /* GLTools.h */,
+				2AB8C0C71B48806E0098A42F /* GLTriangleBatch.h */,
+				2AB8C0C81B48806E0098A42F /* math3d.h */,
+				2AB8C0C91B48806E0098A42F /* StopWatch.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		2AB8C0BD1B48806E0098A42F /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8C0BE1B48806E0098A42F /* glew.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+		2AB8C0CC1B48806E0098A42F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2AB8C0CD1B48806E0098A42F /* GLBatch.cpp */,
+				2AB8C0CE1B48806E0098A42F /* glew.c */,
+				2AB8C0CF1B48806E0098A42F /* GLShaderManager.cpp */,
+				2AB8C0D01B48806E0098A42F /* GLTools.cpp */,
+				2AB8C0D11B48806E0098A42F /* GLTriangleBatch.cpp */,
+				2AB8C0D21B48806E0098A42F /* math3d.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2AB8C0E71B48811B0098A42F /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AC829E01B12C3620029F193 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				2AC829F11B12C38E0029F193 /* PCTransportHolderViewController.xib */,
+				2AC829F21B12C38E0029F193 /* PCTransportHolderViewController.h */,
+				2AC829F31B12C38E0029F193 /* PCTransportHolderViewController.m */,
+				2AC829F41B12C38E0029F193 /* PCTransportDelegateProcotol.h */,
+				2AC829F51B12C38E0029F193 /* PCTransportHolderView.h */,
+				2AC829F61B12C38E0029F193 /* PCTransportHolderView.m */,
+				2AC829F01B12C3840029F193 /* Views */,
+			);
+			name = Transport;
+			sourceTree = "<group>";
+		};
+		2AC829F01B12C3840029F193 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AC829E11B12C3780029F193 /* PCTransportMainButton.h */,
+				2AC829E21B12C3780029F193 /* PCTransportMainButton.m */,
+				2AC829E31B12C3780029F193 /* PCTransportDirectionButton.h */,
+				2AC829E41B12C3780029F193 /* PCTransportDirectionButton.m */,
+				2AC829E51B12C3780029F193 /* PCTransportSliderView.h */,
+				2AC829E61B12C3780029F193 /* PCTransportSliderView.m */,
+				2AC829E71B12C3780029F193 /* PCTransportPlayButton.h */,
+				2AC829E81B12C3780029F193 /* PCTransportPlayButton.m */,
+				2AC829E91B12C3780029F193 /* PCDisableView.h */,
+				2AC829EA1B12C3780029F193 /* PCDisableView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2AC82A041B12D9D40029F193 /* PCVideoController Controls */ = {
+			isa = PBXGroup;
+			children = (
+				2A9005B21B0C490A00761768 /* PCKeyControllerDelegate.h */,
+				2A9005AF1B0C482500761768 /* PCKeyController.h */,
+				2A9005B01B0C482500761768 /* PCKeyController.m */,
+				2A9005B61B0CC1C100761768 /* PCDragViewControllerDelegate.h */,
+				2A9005B31B0CC12100761768 /* PCVideoDragView.h */,
+				2A9005B41B0CC12100761768 /* PCVideoDragView.m */,
+			);
+			name = "PCVideoController Controls";
+			sourceTree = "<group>";
+		};
+		2AF077611B157C5F007A6616 /* IOSurfacePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE3D301AECA5AD00453686 /* PCProxyProtocol.h */,
+				2AF077681B158325007A6616 /* PCIOMovieController.h */,
+				2AF077691B158325007A6616 /* PCIOMovieController.m */,
+				2AF077621B157CAC007A6616 /* IOMoviePlayer.h */,
+				2AF077631B157CAC007A6616 /* IOMoviePlayer.m */,
+				2AF7106C1AFC788C004A5155 /* IOSurfaceLayer.h */,
+				2AF7106D1AFC788C004A5155 /* IOSurfaceLayer.m */,
+				8BD5B50010677E950003967B /* TaskWrapper.h */,
+				8BD5B50110677E950003967B /* TaskWrapper.m */,
+			);
+			name = IOSurfacePlayer;
+			sourceTree = "<group>";
+		};
+		2AF0776C1B1588E3007A6616 /* Graphics Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2AC829FA1B12C3980029F193 /* PCGraphicsHelper.h */,
+				2AC829FB1B12C3980029F193 /* PCGraphicsHelper.m */,
+				2AC829FC1B12C3980029F193 /* NSBezierPath+BezierPathQuartzUtilities.h */,
+				2AC829FD1B12C3980029F193 /* NSBezierPath+BezierPathQuartzUtilities.m */,
+			);
+			name = "Graphics Helper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A62A3A51B0317E100C56362 /* MultiMoviePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A62A3C41B0317E100C56362 /* Build configuration list for PBXNativeTarget "MultiMoviePlayer" */;
+			buildPhases = (
+				2A62A3A21B0317E100C56362 /* Sources */,
+				2A62A3A31B0317E100C56362 /* Frameworks */,
+				2A62A3A41B0317E100C56362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiMoviePlayer;
+			productName = MultiMoviePlayer;
+			productReference = 2A62A3A61B0317E100C56362 /* MultiMoviePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BD5B46F10676F550003967B /* IOSurfaceCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD5B47410676F740003967B /* Build configuration list for PBXNativeTarget "IOSurfaceCLI" */;
+			buildPhases = (
+				8BD5B46D10676F550003967B /* Sources */,
+				8BD5B46E10676F550003967B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSurfaceCLI;
+			productName = IOSurfaceCLI;
+			productReference = 8BD5B47010676F550003967B /* IOSurfaceCLI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Paolo Manna";
+				TargetAttributes = {
+					2A62A3A51B0317E100C56362 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IOSurfaceTest_Renamed" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* IOSurfaceTest */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2AB8C0E71B48811B0098A42F /* Products */;
+					ProjectRef = 2AB8C0E61B48811B0098A42F /* IOSurfaceTest_Renamed.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D801D756111337A2001640FF /* All */,
+				8BD5B46F10676F550003967B /* IOSurfaceCLI */,
+				2A62A3A51B0317E100C56362 /* MultiMoviePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A62A3A41B0317E100C56362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A62A3B01B0317E100C56362 /* Images.xcassets in Resources */,
+				2AEAFD921B7A89200021B05D /* PCVideoControllerViewController.xib in Resources */,
+				2AC829F71B12C38E0029F193 /* PCTransportHolderViewController.xib in Resources */,
+				2AD53A361B18C9D700E5D588 /* 2pop.png in Resources */,
+				2AB8C0D51B48806E0098A42F /* ShaderDemoAdd.vsh in Resources */,
+				2AF0776D1B16D68E007A6616 /* IOSurfaceCLI in Resources */,
+				2A7C59141B45922F00EE5AF1 /* ShaderDemoAdd.fsh in Resources */,
+				2AB8C0D41B48806E0098A42F /* ShaderDemoAdd.fsh in Resources */,
+				2A7C59151B45922F00EE5AF1 /* ShaderDemoAdd.vsh in Resources */,
+				2A62A3B31B0317E100C56362 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A62A3A21B0317E100C56362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB8C0D31B48806E0098A42F /* ImageHelper.mm in Sources */,
+				2AF077651B157CC2007A6616 /* IOMoviePlayer.m in Sources */,
+				2AEAFD911B7A89200021B05D /* PCVideoControllerViewController.m in Sources */,
+				2AB8C11E1B4A3EB30098A42F /* PCVideoController+PCVideoControllerDisplay.m in Sources */,
+				2AB8C0D61B48806E0098A42F /* GLBatch.cpp in Sources */,
+				2A7C592A1B45971C00EE5AF1 /* ShaderHelpers.m in Sources */,
+				2AF077671B1580A3007A6616 /* IOSurfaceLayer.m in Sources */,
+				2AC829FF1B12C3980029F193 /* NSBezierPath+BezierPathQuartzUtilities.m in Sources */,
+				2AB8C0B81B48805E0098A42F /* PCOpenGLScreen.mm in Sources */,
+				2AC829ED1B12C3780029F193 /* PCTransportSliderView.m in Sources */,
+				2AB8C0D81B48806E0098A42F /* GLShaderManager.cpp in Sources */,
+				2A11635D1B0AF79700793CBD /* PCTCformatter.m in Sources */,
+				2AC829F81B12C38E0029F193 /* PCTransportHolderViewController.m in Sources */,
+				2A9BA4611B424D080057B4F7 /* PCOpenGLDiffPixelBuffer.m in Sources */,
+				2AC829EC1B12C3780029F193 /* PCTransportDirectionButton.m in Sources */,
+				2A9005B11B0C482500761768 /* PCKeyController.m in Sources */,
+				2AB8C0DB1B48806E0098A42F /* math3d.cpp in Sources */,
+				2A62A3C91B03181500C56362 /* PCAVMovieController.m in Sources */,
+				2A62A3D11B03181500C56362 /* PCMoviePlayer.m in Sources */,
+				2AC829FE1B12C3980029F193 /* PCGraphicsHelper.m in Sources */,
+				2A9005B51B0CC12100761768 /* PCVideoDragView.m in Sources */,
+				2AB8C0D71B48806E0098A42F /* glew.c in Sources */,
+				2AC829EE1B12C3780029F193 /* PCTransportPlayButton.m in Sources */,
+				2AB8C0EB1B48814F0098A42F /* PCOpenGLLayer.m in Sources */,
+				2AC829EF1B12C3780029F193 /* PCDisableView.m in Sources */,
+				2A62A3D31B03181500C56362 /* VideoOutputLayer.m in Sources */,
+				2AC829F91B12C38E0029F193 /* PCTransportHolderView.m in Sources */,
+				2A62A3AE1B0317E100C56362 /* main.m in Sources */,
+				2A62A3AC1B0317E100C56362 /* AppDelegate.m in Sources */,
+				2A62A3C71B03181500C56362 /* PCVideoController.m in Sources */,
+				2AB8C0D91B48806E0098A42F /* GLTools.cpp in Sources */,
+				2AC82A031B12CA040029F193 /* PCVideoStrings.m in Sources */,
+				2AC829EB1B12C3780029F193 /* PCTransportMainButton.m in Sources */,
+				2AB8C0DA1B48806E0098A42F /* GLTriangleBatch.cpp in Sources */,
+				2AF077661B158097007A6616 /* TaskWrapper.m in Sources */,
+				2AF0776B1B158339007A6616 /* PCIOMovieController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD5B46D10676F550003967B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD5B48810676FDF0003967B /* IOSurfaceCLI.m in Sources */,
+				2AF7106B1AFC5460004A5155 /* MultiMovieRenderer.m in Sources */,
+				2AF710681AFBD558004A5155 /* PCMovieRenderObject.m in Sources */,
+				2A1D03621B1A0E830063F564 /* QTMovie_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D801D75C111337B0001640FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BD5B46F10676F550003967B /* IOSurfaceCLI */;
+			targetProxy = D801D75B111337B0001640FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A62A3B11B0317E100C56362 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A62A3B21B0317E100C56362 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A62A3C01B0317E100C56362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = MultiMoviePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.9;
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/**";
+			};
+			name = Debug;
+		};
+		2A62A3C11B0317E100C56362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = MultiMoviePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.9;
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/**";
+			};
+			name = Release;
+		};
+		8BD5B47210676F550003967B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = IOSurfaceCLI;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		8BD5B47310676F550003967B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = IOSurfaceCLI;
+				SDKROOT = macosx10.9;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+		D801D757111337A2001640FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		D801D758111337A2001640FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = All;
+				SDKROOT = macosx10.9;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A62A3C41B0317E100C56362 /* Build configuration list for PBXNativeTarget "MultiMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A62A3C01B0317E100C56362 /* Debug */,
+				2A62A3C11B0317E100C56362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD5B47410676F740003967B /* Build configuration list for PBXNativeTarget "IOSurfaceCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD5B47210676F550003967B /* Debug */,
+				8BD5B47310676F550003967B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IOSurfaceTest_Renamed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D801D76111133815001640FF /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D801D757111337A2001640FF /* Debug */,
+				D801D758111337A2001640FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* IOSurfaceTestAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 910}}";
+			sepNavSelRange = "{1639, 0}";
+			sepNavVisRange = "{0, 1050}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* IOSurfaceTestAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 2236}}";
+			sepNavSelRange = "{1638, 0}";
+			sepNavVisRange = "{1350, 654}";
+		};
+	};
+	256AC3F00F4B6AF500CF3369 /* IOSurfaceTest_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 608}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 157}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D859C095106BA57D003A3BFA /* IOSurfaceTest */;
+		activeTarget = D801D756111337A2001640FF /* All */;
+		addToTargets = (
+			D8B5CBD1107E47E80039A990 /* IOSurfacePlugin */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = D859C0A1106BA59C003A3BFA /* Code sense */;
+		executables = (
+			D859C095106BA57D003A3BFA /* IOSurfaceTest */,
+			D859C096106BA57D003A3BFA /* IOSurfaceCLI */,
+			D8B5CC3B107E4A7C0039A990 /* Quartz Composer */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					566,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					678,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					742,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					638,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 286474222;
+			PBXWorkspaceStateSaveDate = 286474222;
+		};
+		perUserProjectItems = {
+			D801D7BE11133E82001640FF = D801D7BE11133E82001640FF /* PBXTextBookmark */;
+			D801D7BF11133E82001640FF = D801D7BF11133E82001640FF /* PBXTextBookmark */;
+			D801D7C011133E82001640FF = D801D7C011133E82001640FF /* PBXTextBookmark */;
+			D801D7C111133E82001640FF = D801D7C111133E82001640FF /* PBXTextBookmark */;
+			D801D7C211133E82001640FF = D801D7C211133E82001640FF /* PBXTextBookmark */;
+			D801D7C311133E82001640FF = D801D7C311133E82001640FF /* PBXTextBookmark */;
+			D801D7C411133E82001640FF = D801D7C411133E82001640FF /* PBXTextBookmark */;
+		};
+		sourceControlManager = D859C0A0106BA59C003A3BFA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 285}}";
+			sepNavSelRange = "{98, 0}";
+			sepNavVisRange = "{0, 246}";
+		};
+	};
+	8BD5B46F10676F550003967B /* IOSurfaceCLI */ = {
+		activeExec = 0;
+		executables = (
+			D859C096106BA57D003A3BFA /* IOSurfaceCLI */,
+		);
+	};
+	8BD5B48710676FDF0003967B /* IOSurfaceCLI.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 2275}}";
+			sepNavSelRange = "{38, 0}";
+			sepNavVisRange = "{0, 938}";
+		};
+	};
+	8BD5B4911067709D0003967B /* MovieRenderer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 1261}}";
+			sepNavSelRange = "{0, 1632}";
+			sepNavVisRange = "{1529, 523}";
+		};
+	};
+	8BD5B4921067709D0003967B /* MovieRenderer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 7423}}";
+			sepNavSelRange = "{1627, 0}";
+			sepNavVisRange = "{0, 1038}";
+		};
+	};
+	8BD5B50010677E950003967B /* TaskWrapper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 1482}}";
+			sepNavSelRange = "{4509, 0}";
+			sepNavVisRange = "{3837, 704}";
+		};
+	};
+	8BD5B50110677E950003967B /* TaskWrapper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 2717}}";
+			sepNavSelRange = "{3800, 0}";
+			sepNavVisRange = "{3657, 1759}";
+		};
+	};
+	8BD5B57B1067A7770003967B /* IOSurfaceTestView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 624}}";
+			sepNavSelRange = "{1632, 0}";
+			sepNavVisRange = "{3, 1040}";
+		};
+	};
+	8BD5B57C1067A7770003967B /* IOSurfaceTestView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 2431}}";
+			sepNavSelRange = "{1696, 0}";
+			sepNavVisRange = "{1343, 790}";
+		};
+	};
+	8D1107260486CEB800E47090 /* IOSurfaceTest */ = {
+		activeExec = 0;
+		executables = (
+			D859C095106BA57D003A3BFA /* IOSurfaceTest */,
+		);
+	};
+	D801D756111337A2001640FF /* All */ = {
+		activeExec = 0;
+	};
+	D801D7BE11133E82001640FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BD5B57B1067A7770003967B /* IOSurfaceTestView.h */;
+		name = "IOSurfaceTestView.h: 31";
+		rLen = 0;
+		rLoc = 1632;
+		rType = 0;
+		vrLen = 1043;
+		vrLoc = 0;
+	};
+	D801D7BF11133E82001640FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8B5CC42107E4B0C0039A990 /* IOSurfacePlugIn.h */;
+		name = "IOSurfacePlugIn.h: 31";
+		rLen = 0;
+		rLoc = 1630;
+		rType = 0;
+		vrLen = 1041;
+		vrLoc = 0;
+	};
+	D801D7C011133E82001640FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BD5B50010677E950003967B /* TaskWrapper.h */;
+		name = "TaskWrapper.h: 100";
+		rLen = 0;
+		rLoc = 4509;
+		rType = 0;
+		vrLen = 792;
+		vrLoc = 3749;
+	};
+	D801D7C111133E82001640FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 6";
+		rLen = 0;
+		rLoc = 98;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	D801D7C211133E82001640FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BD5B4911067709D0003967B /* MovieRenderer.h */;
+		name = "MovieRenderer.h: 1";
+		rLen = 1632;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 582;
+		vrLoc = 1529;
+	};
+	D801D7C311133E82001640FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BD5B48710676FDF0003967B /* IOSurfaceCLI.m */;
+		name = "IOSurfaceCLI.m: 95";
+		rLen = 0;
+		rLoc = 3925;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 0;
+	};
+	D801D7C411133E82001640FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8BD5B48710676FDF0003967B /* IOSurfaceCLI.m */;
+		name = "IOSurfaceCLI.m: 2";
+		rLen = 0;
+		rLoc = 21;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 4648;
+	};
+	D859C095106BA57D003A3BFA /* IOSurfaceTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = IOSurfaceTest;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	D859C096106BA57D003A3BFA /* IOSurfaceCLI */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = IOSurfaceCLI;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	D859C0A0106BA59C003A3BFA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = IOSurfaceTest;
+			};
+		};
+	};
+	D859C0A1106BA59C003A3BFA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D8B5CBD1107E47E80039A990 /* IOSurfacePlugin */ = {
+		activeExec = 0;
+	};
+	D8B5CBD3107E47E80039A990 /* IOSurfacePlugin-Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 608}}";
+			sepNavSelRange = "{175, 0}";
+			sepNavVisRect = "{{0, 0}, {1024, 608}}";
+		};
+	};
+	D8B5CC3B107E4A7C0039A990 /* Quartz Composer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = D8B5CC3C107E4A7C0039A990 /* Quartz Composer.app */;
+		libgmallocEnabled = 0;
+		name = "Quartz Composer";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	D8B5CC3C107E4A7C0039A990 /* Quartz Composer.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "Quartz Composer.app";
+		path = "/Developer/Applications/Quartz Composer.app";
+		sourceTree = "<absolute>";
+	};
+	D8B5CC42107E4B0C0039A990 /* IOSurfacePlugIn.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 754}}";
+			sepNavSelRange = "{1630, 0}";
+			sepNavVisRange = "{3, 1038}";
+		};
+	};
+	D8B5CC43107E4B0C0039A990 /* IOSurfacePlugIn.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1111, 4121}}";
+			sepNavSelRange = "{1630, 0}";
+			sepNavVisRange = "{0, 1041}";
+		};
+	};
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+
+<pre>
+Command Line Client has a callback that pulls the currentSurfaceID
+	The surface ID is passed as a unique ID across a pipe to another process
+		you get the CVPixelBuffer and grab its surface ID
+			the <em>CVPixelBuffer</em> is kept in queue and has a time value associated with it
+				the CVPixelBuffers come from <em>QTVisualContextCopyImageForTime</em> which is invoked in a callback on the movie
+				you register to get callbacks with <em>QTVisualContextSetImageAvailableCallback</em> from a context that you have defined
+					<em>QTPixelBufferContextCreate</em>
+</pre>
+</body>

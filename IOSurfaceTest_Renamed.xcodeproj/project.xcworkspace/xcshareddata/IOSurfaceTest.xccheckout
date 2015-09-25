@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>969E98F1-4F5E-4DA3-9BAF-EBF727012971</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IOSurfaceTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C3A79023B154FB0B8FBC897F48038B70133A485C</key>
+		<string>https://iosurfacetest.googlecode.com/svn</string>
+		<key>a618ee34-0cef-11df-bbc3-97105669a493++505</key>
+		<string>https://iosurfacetest.googlecode.com/svn/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IOSurfaceTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C3A79023B154FB0B8FBC897F48038B70133A485C</key>
+		<string>../..</string>
+		<key>a618ee34-0cef-11df-bbc3-97105669a493++505</key>
+		<string>../../../IOSurfaceTest</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>a618ee34-0cef-11df-bbc3-97105669a493++505</key>
+		<string>https://iosurfacetest.googlecode.com/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://iosurfacetest.googlecode.com/svn</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C3A79023B154FB0B8FBC897F48038B70133A485C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>a618ee34-0cef-11df-bbc3-97105669a493++505</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOSurfaceTest</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C3A79023B154FB0B8FBC897F48038B70133A485C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOSurfaceTest_DO</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D801D756111337A2001640FF /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D801D76111133815001640FF /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D801D75E111337B0001640FF /* PBXTargetDependency */,
+				D801D75C111337B0001640FF /* PBXTargetDependency */,
+				D801D75A111337B0001640FF /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* IOSurfaceTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* IOSurfaceTestAppDelegate.m */; };
+		8B1ECDA51063B9E900140C2F /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECDA41063B9E900140C2F /* IOSurface.framework */; };
+		8BD5B48010676FB40003967B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
+		8BD5B48110676FB50003967B /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECDA61063B9E900140C2F /* QTKit.framework */; };
+		8BD5B48510676FBE0003967B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECE691063C34F00140C2F /* CoreVideo.framework */; };
+		8BD5B48810676FDF0003967B /* IOSurfaceCLI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5B48710676FDF0003967B /* IOSurfaceCLI.m */; };
+		8BD5B4931067709D0003967B /* MovieRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5B4921067709D0003967B /* MovieRenderer.m */; };
+		8BD5B4A0106775380003967B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECE741063C36000140C2F /* CoreAudio.framework */; };
+		8BD5B4B1106776610003967B /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECE6B1063C34F00140C2F /* QuickTime.framework */; };
+		8BD5B4B51067766A0003967B /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECDA41063B9E900140C2F /* IOSurface.framework */; };
+		8BD5B50210677E950003967B /* TaskWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5B50110677E950003967B /* TaskWrapper.m */; };
+		8BD5B57D1067A7770003967B /* IOSurfaceTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5B57C1067A7770003967B /* IOSurfaceTestView.m */; };
+		8BD5B5B41067AA900003967B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD5B5B31067AA900003967B /* OpenGL.framework */; };
+		8BD5B6391067B9B20003967B /* IOSurfaceCLI in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BD5B47010676F550003967B /* IOSurfaceCLI */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D801D76E11133A15001640FF /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECDA61063B9E900140C2F /* QTKit.framework */; };
+		D8B5CBDE107E49880039A990 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D8B5CC36107E49AD0039A990 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B5CBDF107E49A50039A990 /* Quartz.framework */; };
+		D8B5CC41107E4AA80039A990 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1ECDA41063B9E900140C2F /* IOSurface.framework */; };
+		D8B5CC44107E4B0C0039A990 /* IOSurfacePlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B5CC43107E4B0C0039A990 /* IOSurfacePlugIn.m */; };
+		D8B5CC45107E4CAD0039A990 /* TaskWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5B50110677E950003967B /* TaskWrapper.m */; };
+		D8B5CC68107EFD890039A990 /* IOSurfaceCLI in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BD5B47010676F550003967B /* IOSurfaceCLI */; };
+		D8B5CC9F107F04A40039A990 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD5B5B31067AA900003967B /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BB8A30F106BA337000FA075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BD5B46F10676F550003967B;
+			remoteInfo = IOSurfaceCLI;
+		};
+		D801D759111337B0001640FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8B5CBD1107E47E80039A990 /* IOSurfacePlugin */;
+			remoteInfo = IOSurfacePlugin;
+		};
+		D801D75B111337B0001640FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BD5B46F10676F550003967B /* IOSurfaceCLI */;
+			remoteInfo = IOSurfaceCLI;
+		};
+		D801D75D111337B0001640FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090 /* IOSurfaceTest */;
+			remoteInfo = IOSurfaceTest;
+		};
+		D801D77511133A4D001640FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BD5B46F10676F550003967B /* IOSurfaceCLI */;
+			remoteInfo = IOSurfaceCLI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BD5B6131067B8CF0003967B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				8BD5B6391067B9B20003967B /* IOSurfaceCLI in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B5CC6B107EFDB00039A990 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				D8B5CC68107EFD890039A990 /* IOSurfaceCLI in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* IOSurfaceTestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOSurfaceTestAppDelegate.h; path = Classes/IOSurfaceTestAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* IOSurfaceTestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOSurfaceTestAppDelegate.m; path = Classes/IOSurfaceTestAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* IOSurfaceTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSurfaceTest_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8B1ECDA41063B9E900140C2F /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = /System/Library/Frameworks/IOSurface.framework; sourceTree = "<absolute>"; };
+		8B1ECDA61063B9E900140C2F /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		8B1ECE691063C34F00140C2F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		8B1ECE6B1063C34F00140C2F /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		8B1ECE741063C36000140C2F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		8BD5B47010676F550003967B /* IOSurfaceCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IOSurfaceCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD5B48710676FDF0003967B /* IOSurfaceCLI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSurfaceCLI.m; sourceTree = "<group>"; };
+		8BD5B4911067709D0003967B /* MovieRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovieRenderer.h; path = Classes/MovieRenderer.h; sourceTree = "<group>"; };
+		8BD5B4921067709D0003967B /* MovieRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovieRenderer.m; path = Classes/MovieRenderer.m; sourceTree = "<group>"; };
+		8BD5B50010677E950003967B /* TaskWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaskWrapper.h; path = Classes/TaskWrapper.h; sourceTree = "<group>"; };
+		8BD5B50110677E950003967B /* TaskWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaskWrapper.m; path = Classes/TaskWrapper.m; sourceTree = "<group>"; };
+		8BD5B57B1067A7770003967B /* IOSurfaceTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOSurfaceTestView.h; path = Classes/IOSurfaceTestView.h; sourceTree = "<group>"; };
+		8BD5B57C1067A7770003967B /* IOSurfaceTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOSurfaceTestView.m; path = Classes/IOSurfaceTestView.m; sourceTree = "<group>"; };
+		8BD5B5B31067AA900003967B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* IOSurfaceTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IOSurfaceTest-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* IOSurfaceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSurfaceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B5CBD2107E47E80039A990 /* IOSurfaceTest.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSurfaceTest.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B5CBD3107E47E80039A990 /* IOSurfacePlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOSurfacePlugin-Info.plist"; sourceTree = "<group>"; };
+		D8B5CBDF107E49A50039A990 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		D8B5CC42107E4B0C0039A990 /* IOSurfacePlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOSurfacePlugIn.h; path = Classes/IOSurfacePlugIn.h; sourceTree = "<group>"; };
+		D8B5CC43107E4B0C0039A990 /* IOSurfacePlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOSurfacePlugIn.m; path = Classes/IOSurfacePlugIn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BD5B46E10676F550003967B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD5B48010676FB40003967B /* Foundation.framework in Frameworks */,
+				8BD5B48110676FB50003967B /* QTKit.framework in Frameworks */,
+				8BD5B48510676FBE0003967B /* CoreVideo.framework in Frameworks */,
+				8BD5B4A0106775380003967B /* CoreAudio.framework in Frameworks */,
+				8BD5B4B1106776610003967B /* QuickTime.framework in Frameworks */,
+				8BD5B4B51067766A0003967B /* IOSurface.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				8B1ECDA51063B9E900140C2F /* IOSurface.framework in Frameworks */,
+				8BD5B5B41067AA900003967B /* OpenGL.framework in Frameworks */,
+				D801D76E11133A15001640FF /* QTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B5CBD0107E47E80039A990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B5CBDE107E49880039A990 /* Cocoa.framework in Frameworks */,
+				D8B5CC36107E49AD0039A990 /* Quartz.framework in Frameworks */,
+				D8B5CC41107E4AA80039A990 /* IOSurface.framework in Frameworks */,
+				D8B5CC9F107F04A40039A990 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D801D74D111336DD001640FF /* Producer */,
+				D801D74F11133719001640FF /* QCPlugin */,
+				D801D74E11133705001640FF /* Test Application */,
+				8BD5B50010677E950003967B /* TaskWrapper.h */,
+				8BD5B50110677E950003967B /* TaskWrapper.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				8BD5B5B31067AA900003967B /* OpenGL.framework */,
+				8B1ECDA41063B9E900140C2F /* IOSurface.framework */,
+				8B1ECDA61063B9E900140C2F /* QTKit.framework */,
+				8B1ECE6B1063C34F00140C2F /* QuickTime.framework */,
+				8B1ECE691063C34F00140C2F /* CoreVideo.framework */,
+				8B1ECE741063C36000140C2F /* CoreAudio.framework */,
+				D8B5CBDF107E49A50039A990 /* Quartz.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* IOSurfaceTest.app */,
+				8BD5B47010676F550003967B /* IOSurfaceCLI */,
+				D8B5CBD2107E47E80039A990 /* IOSurfaceTest.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* IOSurfaceTest */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = IOSurfaceTest;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* IOSurfaceTest_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				8BD5B48710676FDF0003967B /* IOSurfaceCLI.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* IOSurfaceTest-Info.plist */,
+				D8B5CBD3107E47E80039A990 /* IOSurfacePlugin-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D801D74D111336DD001640FF /* Producer */ = {
+			isa = PBXGroup;
+			children = (
+				8BD5B4911067709D0003967B /* MovieRenderer.h */,
+				8BD5B4921067709D0003967B /* MovieRenderer.m */,
+			);
+			name = Producer;
+			sourceTree = "<group>";
+		};
+		D801D74E11133705001640FF /* Test Application */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* IOSurfaceTestAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* IOSurfaceTestAppDelegate.m */,
+				8BD5B57B1067A7770003967B /* IOSurfaceTestView.h */,
+				8BD5B57C1067A7770003967B /* IOSurfaceTestView.m */,
+			);
+			name = "Test Application";
+			sourceTree = "<group>";
+		};
+		D801D74F11133719001640FF /* QCPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5CC42107E4B0C0039A990 /* IOSurfacePlugIn.h */,
+				D8B5CC43107E4B0C0039A990 /* IOSurfacePlugIn.m */,
+			);
+			name = QCPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BD5B46F10676F550003967B /* IOSurfaceCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD5B47410676F740003967B /* Build configuration list for PBXNativeTarget "IOSurfaceCLI" */;
+			buildPhases = (
+				8BD5B46D10676F550003967B /* Sources */,
+				8BD5B46E10676F550003967B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSurfaceCLI;
+			productName = IOSurfaceCLI;
+			productReference = 8BD5B47010676F550003967B /* IOSurfaceCLI */;
+			productType = "com.apple.product-type.tool";
+		};
+		8D1107260486CEB800E47090 /* IOSurfaceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "IOSurfaceTest" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8BD5B6131067B8CF0003967B /* CopyFiles */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BB8A310106BA337000FA075 /* PBXTargetDependency */,
+			);
+			name = IOSurfaceTest;
+			productInstallPath = "$(HOME)/Applications";
+			productName = IOSurfaceTest;
+			productReference = 8D1107320486CEB800E47090 /* IOSurfaceTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8B5CBD1107E47E80039A990 /* IOSurfacePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B5CBD6107E47E90039A990 /* Build configuration list for PBXNativeTarget "IOSurfacePlugin" */;
+			buildPhases = (
+				D8B5CBCF107E47E80039A990 /* Sources */,
+				D8B5CC6B107EFDB00039A990 /* CopyFiles */,
+				D8B5CBD0107E47E80039A990 /* Frameworks */,
+				D8B5CC38107E49BF0039A990 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D801D77611133A4D001640FF /* PBXTargetDependency */,
+			);
+			name = IOSurfacePlugin;
+			productName = IOSurfacePlugin;
+			productReference = D8B5CBD2107E47E80039A990 /* IOSurfaceTest.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Paolo Manna";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IOSurfaceTest" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* IOSurfaceTest */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D801D756111337A2001640FF /* All */,
+				8D1107260486CEB800E47090 /* IOSurfaceTest */,
+				8BD5B46F10676F550003967B /* IOSurfaceCLI */,
+				D8B5CBD1107E47E80039A990 /* IOSurfacePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D8B5CC38107E49BF0039A990 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies the built plug-in to \"~/Library/Graphics/Quartz Composer Plug-Ins\" and overrides any previous version at that location\n\nmkdir -p \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins\"\nrm -rf \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/IOSurfaceTest.plugin\"\ncp -rf \"$BUILT_PRODUCTS_DIR/IOSurfaceTest.plugin\" \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BD5B46D10676F550003967B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD5B48810676FDF0003967B /* IOSurfaceCLI.m in Sources */,
+				8BD5B4931067709D0003967B /* MovieRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* IOSurfaceTestAppDelegate.m in Sources */,
+				8BD5B50210677E950003967B /* TaskWrapper.m in Sources */,
+				8BD5B57D1067A7770003967B /* IOSurfaceTestView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B5CBCF107E47E80039A990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B5CC45107E4CAD0039A990 /* TaskWrapper.m in Sources */,
+				D8B5CC44107E4B0C0039A990 /* IOSurfacePlugIn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BB8A310106BA337000FA075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BD5B46F10676F550003967B /* IOSurfaceCLI */;
+			targetProxy = 8BB8A30F106BA337000FA075 /* PBXContainerItemProxy */;
+		};
+		D801D75A111337B0001640FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8B5CBD1107E47E80039A990 /* IOSurfacePlugin */;
+			targetProxy = D801D759111337B0001640FF /* PBXContainerItemProxy */;
+		};
+		D801D75C111337B0001640FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BD5B46F10676F550003967B /* IOSurfaceCLI */;
+			targetProxy = D801D75B111337B0001640FF /* PBXContainerItemProxy */;
+		};
+		D801D75E111337B0001640FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* IOSurfaceTest */;
+			targetProxy = D801D75D111337B0001640FF /* PBXContainerItemProxy */;
+		};
+		D801D77611133A4D001640FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BD5B46F10676F550003967B /* IOSurfaceCLI */;
+			targetProxy = D801D77511133A4D001640FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BD5B47210676F550003967B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = IOSurfaceCLI;
+			};
+			name = Debug;
+		};
+		8BD5B47310676F550003967B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = IOSurfaceCLI;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IOSurfaceTest_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "IOSurfaceTest-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = IOSurfaceTest;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IOSurfaceTest_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "IOSurfaceTest-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = IOSurfaceTest;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		D801D757111337A2001640FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+			};
+			name = Debug;
+		};
+		D801D758111337A2001640FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = All;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		D8B5CBD4107E47E90039A990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "IOSurfacePlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = IOSurfaceTest;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		D8B5CBD5107E47E90039A990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "IOSurfacePlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = IOSurfaceTest;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BD5B47410676F740003967B /* Build configuration list for PBXNativeTarget "IOSurfaceCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD5B47210676F550003967B /* Debug */,
+				8BD5B47310676F550003967B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "IOSurfaceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IOSurfaceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D801D76111133815001640FF /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D801D757111337A2001640FF /* Debug */,
+				D801D758111337A2001640FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B5CBD6107E47E90039A990 /* Build configuration list for PBXNativeTarget "IOSurfacePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B5CBD4107E47E90039A990 /* Debug */,
+				D8B5CBD5107E47E90039A990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
